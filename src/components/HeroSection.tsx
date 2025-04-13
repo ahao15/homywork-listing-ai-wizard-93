@@ -21,7 +21,8 @@ const HeroSection = () => {
                 size="lg"
                 className="bg-homywork-purple hover:bg-homywork-purple/90 text-white"
                 onClick={() =>
-                  (window.location.href = "https://homywork.com/PublishRegister")
+                  (window.location.href =
+                    "https://homywork.com/PublishRegister")
                 }
               >
                 Start for Free <ArrowRight size={18} className="ml-2" />
@@ -45,7 +46,7 @@ const HeroSection = () => {
           >
             <div className="aspect-video bg-homywork-darkPurple rounded-lg overflow-hidden">
               <img
-                src="https://sdmntpreastus2.oaiusercontent.com/files/00000000-3a5c-61f6-b906-f3fcec4fb102/raw?se=2025-04-13T22%3A05%3A55Z&sp=r&sv=2024-08-04&sr=b&scid=1cfc6c3f-8b85-5871-9af7-76b4068e374e&skoid=a47cd303-16a2-427e-8efb-2ce406116005&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-13T18%3A04%3A38Z&ske=2025-04-14T18%3A04%3A38Z&sks=b&skv=2024-08-04&sig=hsiPyxAjCPa68jFOVfFNFdGF8Qv2PqJqlJJhqzqLfJY%3D"
+                src="man_coffee.png"
                 alt="Homywork Dashboard"
                 className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity"
               />
