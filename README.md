@@ -40,39 +40,19 @@ Make sure you have Node.js installed. Recommended via [nvm](https://github.com/n
 
 ## ✏️ Editing Options
 
-### ✅ Option 1: Use Lovable
-
-Edit visually at [lovable.dev](https://lovable.dev/projects/a50bfa19-243a-43d3-8991-4fad37d52fbb).  
-Changes sync directly to this repo automatically.
-
-### 🧑‍💻 Option 2: Use your IDE
+### 🧑‍💻 Option 1: Use your IDE
 
 Clone this repo, make changes locally, and push. Ideal for developers who prefer full control.
 
-### 🧷 Option 3: Edit in GitHub UI
+### 🧷 Option 2: Edit in GitHub UI
 
 Click the pencil icon on any file to edit and commit inline from GitHub.
 
-### 💻 Option 4: Use GitHub Codespaces
+### 💻 Option 3: Use GitHub Codespaces
 
 1. Click the green “Code” button in GitHub.
 2. Open the “Codespaces” tab.
 3. Launch a new codespace and develop in-browser.
-
----
-
-## 🌍 Deployment
-
-To publish:
-
-- Go to your [Lovable Project Dashboard](https://lovable.dev/projects/a50bfa19-243a-43d3-8991-4fad37d52fbb)
-- Click **Share → Publish**
-
-### Custom Domain:
-
-1. Go to **Project → Settings → Domains**
-2. Click **Connect Domain**
-3. Follow [this guide](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
 
 ---
 
@@ -97,6 +77,4 @@ Happy shipping 🚀
 ```
 
 ---
-
-Let me know if you want this version to also include badges (e.g., “Built with Vite”, “Deployed with Lovable”), or contribution instructions!
 ```
