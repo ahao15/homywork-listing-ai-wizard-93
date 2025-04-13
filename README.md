@@ -1,73 +1,102 @@
-# Welcome to your Lovable project
+Absolutely — here’s your complete **`README.md`** file content, ready to paste:
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/a50bfa19-243a-43d3-8991-4fad37d52fbb
+````md
+# Homywork Landing Page
 
-## How can I edit this code?
+This repo contains the marketing site for **Homywork** — the AI-native co-operator for e-commerce listings.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🛠 Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a50bfa19-243a-43d3-8991-4fad37d52fbb) and start prompting.
+- Vite + React + TypeScript
+- Tailwind CSS
+- shadcn/ui components
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 Getting Started (Local Dev)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+# 1. Clone the repo
+git clone <REPO_URL>
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# 2. Navigate into the project
+cd homywork-landing
 
-Follow these steps:
+# 3. Install dependencies
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Run the local dev server
 npm run dev
 ```
+````
 
-**Edit a file directly in GitHub**
+Make sure you have Node.js installed. Recommended via [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## ✏️ Editing Options
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### ✅ Option 1: Use Lovable
 
-## What technologies are used for this project?
+Edit visually at [lovable.dev](https://lovable.dev/projects/a50bfa19-243a-43d3-8991-4fad37d52fbb).  
+Changes sync directly to this repo automatically.
 
-This project is built with:
+### 🧑‍💻 Option 2: Use your IDE
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Clone this repo, make changes locally, and push. Ideal for developers who prefer full control.
 
-## How can I deploy this project?
+### 🧷 Option 3: Edit in GitHub UI
 
-Simply open [Lovable](https://lovable.dev/projects/a50bfa19-243a-43d3-8991-4fad37d52fbb) and click on Share -> Publish.
+Click the pencil icon on any file to edit and commit inline from GitHub.
 
-## Can I connect a custom domain to my Lovable project?
+### 💻 Option 4: Use GitHub Codespaces
 
-Yes, you can!
+1. Click the green “Code” button in GitHub.
+2. Open the “Codespaces” tab.
+3. Launch a new codespace and develop in-browser.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🌍 Deployment
+
+To publish:
+
+- Go to your [Lovable Project Dashboard](https://lovable.dev/projects/a50bfa19-243a-43d3-8991-4fad37d52fbb)
+- Click **Share → Publish**
+
+### Custom Domain:
+
+1. Go to **Project → Settings → Domains**
+2. Click **Connect Domain**
+3. Follow [this guide](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+---
+
+## 🧩 Key Files to Customize
+
+- `components/HeroSection.tsx` → Homepage hero (headline, CTAs)
+- `components/FeaturesSection.tsx` → 4-box product feature section
+- `components/ComparisonSection.tsx` → Feature comparison matrix
+- `README.md` → This file
+
+---
+
+## 🧠 About Homywork
+
+Homywork is building a vertical AI agent for e-commerce sellers — automating category selection, SEO copywriting, image generation, listing management, and analytics in one looped system.
+
+---
+
+Happy shipping 🚀  
+– Homywork Team
+
+```
+
+---
+
+Let me know if you want this version to also include badges (e.g., “Built with Vite”, “Deployed with Lovable”), or contribution instructions!
+```
