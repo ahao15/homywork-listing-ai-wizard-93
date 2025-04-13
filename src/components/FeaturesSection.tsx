@@ -1,12 +1,27 @@
 
-import { Check } from "lucide-react";
+import { Check, Brain, Image, FileText, TrendingUp } from "lucide-react";
 
 const features = [
-  "Auto-generates SEO titles & descriptions",
-  "Chooses the best converting product category using AI",
-  "Creates platform-specific images (white background, lifestyle, detail shots)",
-  "Publishes directly to Amazon, Walmart, Wayfair, Temu, and more",
-  "Tracks performance and recommends improvements"
+  {
+    icon: Brain,
+    title: "Understands your product",
+    description: "Picks the highest-converting category — no guesswork, just optimized placement based on real data"
+  },
+  {
+    icon: Image,
+    title: "Generates scroll-stopping images",
+    description: "White background, lifestyle, or close-ups, tailored to each marketplace's requirements"
+  },
+  {
+    icon: FileText,
+    title: "Writes SEO-rich content",
+    description: "Titles and descriptions automatically tuned for discoverability, CTR, and conversion"
+  },
+  {
+    icon: TrendingUp,
+    title: "Monitors performance",
+    description: "Continuously improves future listings — every listing gets smarter with feedback"
+  }
 ];
 
 const FeaturesSection = () => {
@@ -20,26 +35,48 @@ const FeaturesSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           {features.map((feature, index) => (
             <div 
               key={index} 
               className="bg-white p-6 rounded-lg border border-homywork-lightPurple/50 shadow-sm hover:shadow-md transition-shadow animate-fade-up flex items-start"
               style={{ animationDelay: `${0.1 * index}s` }}
             >
-              <div className="rounded-full bg-homywork-purple/10 p-2 mr-4 flex-shrink-0">
-                <Check className="h-5 w-5 text-homywork-purple" />
+              <div className="rounded-full bg-homywork-purple/10 p-3 mr-4 flex-shrink-0">
+                <feature.icon className="h-6 w-6 text-homywork-purple" />
               </div>
-              <p className="text-homywork-darkPurple font-medium">{feature}</p>
+              <div>
+                <h3 className="font-semibold text-lg mb-2 text-homywork-darkPurple">{feature.title}</h3>
+                <p className="text-homywork-gray">{feature.description}</p>
+              </div>
             </div>
           ))}
         </div>
 
-        <div className="mt-20 bg-homywork-darkPurple rounded-xl p-8 text-white animate-fade-up">
-          <h3 className="text-2xl md:text-3xl font-bold mb-4">Our Mission</h3>
+        <div className="mt-12 bg-homywork-darkPurple rounded-xl p-8 text-white animate-fade-up">
+          <h3 className="text-2xl md:text-3xl font-bold mb-4">What Homywork Actually Does</h3>
           <p className="text-lg md:text-xl opacity-90 mb-6">
-            We're not just another listing tool. Homywork is building the <span className="font-bold text-homywork-purple">vertical AI infrastructure for commerce</span> — one that learns from every listing, scales across marketplaces, and helps underdog sellers compete with big brands.
+            Your AI teammate that runs the listing lifecycle — so you don't have to.
           </p>
+
+          <div className="space-y-4 text-lg">
+            <div className="flex items-start space-x-3">
+              <span className="text-homywork-purple text-2xl">🧠</span>
+              <p>Understands your product and picks the highest-converting category — no guesswork, just optimized placement based on real data</p>
+            </div>
+            <div className="flex items-start space-x-3">
+              <span className="text-homywork-purple text-2xl">🖼</span>
+              <p>Generates scroll-stopping images for each marketplace — white background, lifestyle, or close-ups, tailored to platform norms</p>
+            </div>
+            <div className="flex items-start space-x-3">
+              <span className="text-homywork-purple text-2xl">✍️</span>
+              <p>Writes SEO-rich titles and descriptions automatically — tuned for discoverability, CTR, and conversion</p>
+            </div>
+            <div className="flex items-start space-x-3">
+              <span className="text-homywork-purple text-2xl">📈</span>
+              <p>Monitors performance and continuously improves future listings — every listing gets smarter with feedback</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
