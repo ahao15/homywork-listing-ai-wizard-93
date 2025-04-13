@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -17,32 +16,55 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
-          <a href="#features" className="text-homywork-darkPurple/80 hover:text-homywork-purple transition-colors">
+          <a
+            href="#features"
+            className="text-homywork-darkPurple/80 hover:text-homywork-purple transition-colors"
+          >
             Features
           </a>
-          <a href="#results" className="text-homywork-darkPurple/80 hover:text-homywork-purple transition-colors">
+          <a
+            href="#results"
+            className="text-homywork-darkPurple/80 hover:text-homywork-purple transition-colors"
+          >
             Results
           </a>
-          <a href="#comparison" className="text-homywork-darkPurple/80 hover:text-homywork-purple transition-colors">
+          <a
+            href="#comparison"
+            className="text-homywork-darkPurple/80 hover:text-homywork-purple transition-colors"
+          >
             Comparison
           </a>
-          <a href="#testimonials" className="text-homywork-darkPurple/80 hover:text-homywork-purple transition-colors">
+          <a
+            href="#testimonials"
+            className="text-homywork-darkPurple/80 hover:text-homywork-purple transition-colors"
+          >
             Testimonials
           </a>
         </nav>
 
         <div className="hidden md:flex items-center gap-4">
-          <Button variant="ghost" className="text-homywork-darkPurple hover:text-homywork-purple">
+          <Button
+            variant="ghost"
+            className="text-homywork-darkPurple hover:text-homywork-purple"
+            onClick={() =>
+              (window.location.href = "https://homywork.com/PublishLogin")
+            }
+          >
             Login
           </Button>
-          <Button className="bg-homywork-purple hover:bg-homywork-purple/90 text-white">
+          <Button
+            className="bg-homywork-purple hover:bg-homywork-purple/90 text-white"
+            onClick={() =>
+              (window.location.href = "https://homywork.com/PublishLogin")
+            }
+          >
             Start Free
           </Button>
         </div>
 
         {/* Mobile Menu Button */}
-        <button 
-          className="md:hidden text-homywork-darkPurple" 
+        <button
+          className="md:hidden text-homywork-darkPurple"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -53,36 +75,39 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden absolute top-full left-0 right-0 bg-white border-b shadow-lg animate-fade-in">
           <div className="container-width py-4 px-4 flex flex-col gap-4">
-            <a 
-              href="#features" 
+            <a
+              href="#features"
               className="py-2 text-homywork-darkPurple/80 hover:text-homywork-purple transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Features
             </a>
-            <a 
-              href="#results" 
+            <a
+              href="#results"
               className="py-2 text-homywork-darkPurple/80 hover:text-homywork-purple transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Results
             </a>
-            <a 
-              href="#comparison" 
+            <a
+              href="#comparison"
               className="py-2 text-homywork-darkPurple/80 hover:text-homywork-purple transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Comparison
             </a>
-            <a 
-              href="#testimonials" 
+            <a
+              href="#testimonials"
               className="py-2 text-homywork-darkPurple/80 hover:text-homywork-purple transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Testimonials
             </a>
             <div className="flex flex-col gap-2 pt-2 border-t">
-              <Button variant="ghost" className="justify-start text-homywork-darkPurple hover:text-homywork-purple">
+              <Button
+                variant="ghost"
+                className="justify-start text-homywork-darkPurple hover:text-homywork-purple"
+              >
                 Login
               </Button>
               <Button className="bg-homywork-purple hover:bg-homywork-purple/90 text-white w-full">
