@@ -46,7 +46,7 @@ const HeroSection = () => {
           >
             <div className="aspect-video bg-homywork-darkPurple rounded-lg overflow-hidden">
               <img
-                src="man_coffee.png"
+                src="https://i.imgur.com/i8pdkdB.png"
                 alt="Homywork Dashboard"
                 className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity"
               />

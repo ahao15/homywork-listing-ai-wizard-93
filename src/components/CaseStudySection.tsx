@@ -19,12 +19,12 @@ const CaseStudySection = () => {
           <div className="relative animate-fade-up">
             <div className="flex flex-col space-y-4">
               <img
-                src="/public/lovable-uploads/bc24322e-f1ae-4f1f-a0f4-10f380595624.png"
+                src="https://i.imgur.com/EEMwV9b.png"
                 alt="Before: HomyCasa product listing at $25.00"
                 className="rounded-lg shadow-md"
               />
               <img
-                src="/public/lovable-uploads/4fe7b7e3-cd8e-44e7-9215-32a94b8b7e56.png"
+                src="https://i.imgur.com/gdRT3PC.png"
                 alt="After: HomyCasa product listing at $27.00"
                 className="rounded-lg shadow-md"
               />
