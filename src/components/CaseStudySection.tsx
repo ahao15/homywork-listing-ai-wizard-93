@@ -64,8 +64,8 @@ const CaseStudySection = () => {
                     Our Intervention:
                   </h4>
                   <p>
-                    Homywork analyzed product context + marketplace data. We
-                    repositioned it under "Dining & Party Tables",
+                    Our AI Operator analyzed product context + marketplace data.
+                    We repositioned it under "Dining & Party Tables",
                     auto-generated AI images, SEO content, and pushed the
                     listing live in minutes.
                   </p>
