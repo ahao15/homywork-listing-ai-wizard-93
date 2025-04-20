@@ -55,10 +55,10 @@ const Navbar = () => {
           <Button
             className="bg-homywork-purple hover:bg-homywork-purple/90 text-white"
             onClick={() =>
-              (window.location.href = "https://homywork.com/PublishLogin")
+              (window.location.href = "https://calendly.com/tinshlee/30min")
             }
           >
-            Start Free
+            Book a Demo
           </Button>
         </div>
 

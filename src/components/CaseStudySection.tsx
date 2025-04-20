@@ -38,7 +38,7 @@ const CaseStudySection = () => {
             <CardContent className="p-8">
               <div className="mb-6">
                 <h3 className="text-xl font-bold mb-2 text-homywork-darkPurple">
-                  Client: HomyCasa
+                  Client: DTC Home Retailer
                 </h3>
                 <p className="text-homywork-gray">
                   A U.S.-based Walmart furniture seller, and one of our first

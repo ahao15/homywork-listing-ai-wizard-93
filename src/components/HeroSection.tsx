@@ -33,7 +33,7 @@ const HeroSection = () => {
                 variant="outline"
                 className="border-homywork-purple text-homywork-purple hover:bg-homywork-purple/10"
                 onClick={() =>
-                  (window.location.href = "https://homywork.com/PublishLogin")
+                  (window.location.href = "https://calendly.com/tinshlee/30min")
                 }
               >
                 Book a Demo <ChevronRight size={18} className="ml-1" />
